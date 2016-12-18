@@ -13,18 +13,18 @@ spec:
     spec:
       containers:
       - name: bigquery
-        image: gcr.io/google-samples/pubsub-bq-pipe:v2
+        image: gcr.io/mizueplayground/pubsub_pipeline
         env:
         - name: PROCESSINGSCRIPT
           value: pubsub-to-bigquery
         # Change this to your pubsub topic
         - name: PUBSUB_TOPIC
-          value: projects/your-project/topics/your-topic
+          value: projects/mizueplayground/topics/new_tweets
         # Change this to your project ID.
         - name: PROJECT_ID
-          value: xxxx
+          value: mizueplayground
         # Change the following two settings to your dataset and table.
         - name: BQ_DATASET
-          value: xxxx
+          value: rtda
         - name: BQ_TABLE
-          value: xxxx
+          value: tweets

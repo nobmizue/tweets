@@ -1,6 +1,3 @@
-
-Copyright (C) 2014 Google Inc.
-
 # Example app: Real-time data analysis using Kubernetes, PubSub, and BigQuery
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

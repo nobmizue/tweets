@@ -103,10 +103,9 @@ if __name__ == '__main__':
     else:
         stream.filter(
                 track=['bigdata', 'kubernetes', 'bigquery', 'docker', 'google',
-                       'googlecloud', 'golang', 'dataflow',
+                       'googlecloud', 'golang', 'dataflow', 'dataproc',
                        'containers', 'appengine', 'gcp', 'compute',
-                       'scalability', 'gigaom', 'news', 'tech', 'apple',
-                       'amazon', 'cluster', 'distributed', 'computing',
-                       'cloud', 'android', 'mobile', 'ios', 'iphone',
-                       'python', 'recode', 'techcrunch', 'timoreilly']
+                       'scalability','aws', 'azure', 'tensorflow',
+                       'cloud', 'android', 'softlayer',
+                       'python']
                 )
